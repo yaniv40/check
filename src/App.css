@@ -1,0 +1,165 @@
+span {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
+
+.items {
+  margin-left: 20px;
+  margin-top: 55px;
+  font-size: 50x;
+  width: 100px;
+  height: 100px;
+}
+
+.items:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+
+.room-name {
+  color: white;
+  font-size: 30px;
+}
+
+
+.name {
+color: white;
+}
+
+
+.add-product-btn {
+  margin-left: 25px;
+}
+
+.hr-style {
+  color: rgb(115, 115, 194);
+  height: 2px;
+  border-style: solid;
+  background-color:rgb(115, 115, 194) ;
+}
+
+.room-names {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.room-names:hover {
+  color: white;
+}
+
+button {
+  font-size: 22px;
+  cursor: pointer;
+  /* padding: 10px; */
+  height: 70px;
+  width: 230px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(115, 115, 194);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(115, 115, 194);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+select {
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(115, 115, 194);
+  border-style: solid;
+  border-radius: 8px;
+  color: white;
+  border-width: 3px;
+  height: 70px;
+}
+
+input {
+  width: 425px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.main-title {
+  color: white;
+  font-size: 75px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 3px;
+  animation: neon-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-glow {
+  0% {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    text-shadow: -2px -2px 4px rgba(255, 255, 255, 0.6),
+                 2px 2px 4px rgba(0, 0, 0, 0.6),
+                 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+
+
+body {
+background-color: rgb(42, 42, 92);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
